@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5CDEEEE52E66490300B13749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDEEECE2E66490300B13749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDEEED52E66490300B13749;
+			remoteInfo = KeyboardGlowShortcut;
+		};
+		5CDEEEEF2E66490300B13749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDEEECE2E66490300B13749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDEEED52E66490300B13749;
+			remoteInfo = KeyboardGlowShortcut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CDEEED62E66490300B13749 /* KeyboardGlowShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardGlowShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDEEEE42E66490300B13749 /* KeyboardGlowShortcutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardGlowShortcutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDEEEEE2E66490300B13749 /* KeyboardGlowShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardGlowShortcutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CDEEED82E66490300B13749 /* KeyboardGlowShortcut */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeyboardGlowShortcut;
+			sourceTree = "<group>";
+		};
+		5CDEEEE72E66490300B13749 /* KeyboardGlowShortcutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeyboardGlowShortcutTests;
+			sourceTree = "<group>";
+		};
+		5CDEEEF12E66490300B13749 /* KeyboardGlowShortcutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeyboardGlowShortcutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDEEED32E66490300B13749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEE12E66490300B13749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEEB2E66490300B13749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDEEECD2E66490300B13749 = {
+			isa = PBXGroup;
+			children = (
+				5CDEEED82E66490300B13749 /* KeyboardGlowShortcut */,
+				5CDEEEE72E66490300B13749 /* KeyboardGlowShortcutTests */,
+				5CDEEEF12E66490300B13749 /* KeyboardGlowShortcutUITests */,
+				5CDEEED72E66490300B13749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDEEED72E66490300B13749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDEEED62E66490300B13749 /* KeyboardGlowShortcut.app */,
+				5CDEEEE42E66490300B13749 /* KeyboardGlowShortcutTests.xctest */,
+				5CDEEEEE2E66490300B13749 /* KeyboardGlowShortcutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDEEED52E66490300B13749 /* KeyboardGlowShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDEEEF82E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcut" */;
+			buildPhases = (
+				5CDEEED22E66490300B13749 /* Sources */,
+				5CDEEED32E66490300B13749 /* Frameworks */,
+				5CDEEED42E66490300B13749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5CDEEED82E66490300B13749 /* KeyboardGlowShortcut */,
+			);
+			name = KeyboardGlowShortcut;
+			packageProductDependencies = (
+			);
+			productName = KeyboardGlowShortcut;
+			productReference = 5CDEEED62E66490300B13749 /* KeyboardGlowShortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDEEEE32E66490300B13749 /* KeyboardGlowShortcutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDEEEFB2E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcutTests" */;
+			buildPhases = (
+				5CDEEEE02E66490300B13749 /* Sources */,
+				5CDEEEE12E66490300B13749 /* Frameworks */,
+				5CDEEEE22E66490300B13749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDEEEE62E66490300B13749 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CDEEEE72E66490300B13749 /* KeyboardGlowShortcutTests */,
+			);
+			name = KeyboardGlowShortcutTests;
+			packageProductDependencies = (
+			);
+			productName = KeyboardGlowShortcutTests;
+			productReference = 5CDEEEE42E66490300B13749 /* KeyboardGlowShortcutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CDEEEED2E66490300B13749 /* KeyboardGlowShortcutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDEEEFE2E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcutUITests" */;
+			buildPhases = (
+				5CDEEEEA2E66490300B13749 /* Sources */,
+				5CDEEEEB2E66490300B13749 /* Frameworks */,
+				5CDEEEEC2E66490300B13749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDEEEF02E66490300B13749 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CDEEEF12E66490300B13749 /* KeyboardGlowShortcutUITests */,
+			);
+			name = KeyboardGlowShortcutUITests;
+			packageProductDependencies = (
+			);
+			productName = KeyboardGlowShortcutUITests;
+			productReference = 5CDEEEEE2E66490300B13749 /* KeyboardGlowShortcutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDEEECE2E66490300B13749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5CDEEED52E66490300B13749 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5CDEEEE32E66490300B13749 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5CDEEED52E66490300B13749;
+					};
+					5CDEEEED2E66490300B13749 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5CDEEED52E66490300B13749;
+					};
+				};
+			};
+			buildConfigurationList = 5CDEEED12E66490300B13749 /* Build configuration list for PBXProject "KeyboardGlowShortcut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDEEECD2E66490300B13749;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5CDEEED72E66490300B13749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDEEED52E66490300B13749 /* KeyboardGlowShortcut */,
+				5CDEEEE32E66490300B13749 /* KeyboardGlowShortcutTests */,
+				5CDEEEED2E66490300B13749 /* KeyboardGlowShortcutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDEEED42E66490300B13749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEE22E66490300B13749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEEC2E66490300B13749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDEEED22E66490300B13749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEE02E66490300B13749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDEEEEA2E66490300B13749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDEEEE62E66490300B13749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDEEED52E66490300B13749 /* KeyboardGlowShortcut */;
+			targetProxy = 5CDEEEE52E66490300B13749 /* PBXContainerItemProxy */;
+		};
+		5CDEEEF02E66490300B13749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDEEED52E66490300B13749 /* KeyboardGlowShortcut */;
+			targetProxy = 5CDEEEEF2E66490300B13749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CDEEEF62E66490300B13749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CDEEEF72E66490300B13749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5CDEEEF92E66490300B13749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardGlowShortcut/KeyboardGlowShortcut.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5CDEEEFA2E66490300B13749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardGlowShortcut/KeyboardGlowShortcut.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5CDEEEFC2E66490300B13749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardGlowShortcut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyboardGlowShortcut";
+			};
+			name = Debug;
+		};
+		5CDEEEFD2E66490300B13749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardGlowShortcut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyboardGlowShortcut";
+			};
+			name = Release;
+		};
+		5CDEEEFF2E66490300B13749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyboardGlowShortcut;
+			};
+			name = Debug;
+		};
+		5CDEEF002E66490300B13749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RashadRafa.KeyboardGlowShortcutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyboardGlowShortcut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDEEED12E66490300B13749 /* Build configuration list for PBXProject "KeyboardGlowShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEEEF62E66490300B13749 /* Debug */,
+				5CDEEEF72E66490300B13749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDEEEF82E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEEEF92E66490300B13749 /* Debug */,
+				5CDEEEFA2E66490300B13749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDEEEFB2E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEEEFC2E66490300B13749 /* Debug */,
+				5CDEEEFD2E66490300B13749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDEEEFE2E66490300B13749 /* Build configuration list for PBXNativeTarget "KeyboardGlowShortcutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDEEEFF2E66490300B13749 /* Debug */,
+				5CDEEF002E66490300B13749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDEEECE2E66490300B13749 /* Project object */;
+}
