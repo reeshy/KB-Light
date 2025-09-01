@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5CDEEF052E664AFA00B13749 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDEEF042E664AFA00B13749 /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5CDEEEE52E66490300B13749 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDEEF052E664AFA00B13749 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = KeyboardGlowShortcut;
 			packageProductDependencies = (
+				5CDEEF042E664AFA00B13749 /* KeyboardShortcuts */,
 			);
 			productName = KeyboardGlowShortcut;
 			productReference = 5CDEEED62E66490300B13749 /* KeyboardGlowShortcut.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 5CDEEECD2E66490300B13749;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5CDEEF032E664AFA00B13749 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5CDEEED72E66490300B13749 /* Products */;
 			projectDirPath = "";
@@ -562,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CDEEF032E664AFA00B13749 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CDEEF042E664AFA00B13749 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDEEF032E664AFA00B13749 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CDEEECE2E66490300B13749 /* Project object */;
 }
