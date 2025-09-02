@@ -14,7 +14,7 @@ struct MenuView: View {
             Text("Keyboard Backlight Mapping").font(.headline)
 
             Group {
-                Button("Apply Now (F1 → Dim, F2 → Bright)") {
+                Button("Apply Now (fn + F1 → Dim, fn + F2 → Bright)") {
                     status = HidUtilService.applyNow(json: Config.mappingJSON())
                 }
                 Button("Reset Now (clear mapping)") {
