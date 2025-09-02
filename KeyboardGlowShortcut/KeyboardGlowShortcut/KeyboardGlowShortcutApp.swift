@@ -47,7 +47,7 @@ fileprivate func run(_ launchPath: String, _ args: [String]) -> (Int32, String, 
     return (task.terminationStatus, out, err)
 }
 
-// Apply mapping now (omedelbar effekt)
+// Apply mapping now
 fileprivate func applyNow(json: String) -> String {
     let (code, out, err) = run("/usr/bin/hidutil", ["property", "--set", json])
     if code == 0 {
