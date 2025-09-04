@@ -69,7 +69,12 @@ struct MenuView: View {
                 .buttonStyle(FullWidthButtonStyle(kind: .secondary))
                 .frame(maxWidth: 120) 
             }
+            fullWidthButton("Quit", kind: .secondary) {
+                    NSApplication.shared.terminate(nil)
+                
+                }
         }
+
         .padding(14)
         .frame(width: 320)
     }
