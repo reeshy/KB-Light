@@ -34,20 +34,37 @@ A lightweight macOS menu bar utility to control your MacBook keyboard backlight 
    ```bash
    git clone https://github.com/reeshy/KeyboardGlowShortcut.git
    cd KeyboardGlowShortcut
+   
 Open KB Light.xcodeproj in Xcode.
+
 Build & run (⌘R).
+
 📖 Usage
+
 Apply Now – Apply the key mapping immediately.
+
 Reset Mapping – Remove all custom mappings.
+
 Install Login Agent – Make the mapping load automatically at login.
+
 Remove Agent – Remove the login agent.
+
 💻 System Requirements
+
 macOS Monterey (12) or newer
+
 MacBook with a backlit keyboard
+
 🤝 Contributing
+
 Pull requests and feature suggestions are welcome!
+
 For major changes, please open an issue first to discuss.
+
 ☕ Support Development
+
 If you find KB Light useful, you can support development here:
+
 📜 License
+
 This project is licensed under the MIT License – see LICENSE for details.
